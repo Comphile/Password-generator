@@ -48,7 +48,7 @@ def buttonfun():
 
 root = tk.Tk()
 root.geometry("250x75")
-root.iconbitmap(r'C:\Users\aravi\Desktop\CSE\Projects\PasswordPy\icon1.ico')
+root.iconbitmap(r'.\icon1.ico')
 root.eval('tk::PlaceWindow . center')
 pwdval = tk.StringVar()
 root.title("Password Generator")
